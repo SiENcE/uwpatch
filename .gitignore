@@ -1,0 +1,5 @@
+/uwpatch
+/out/
+/out-win/
+*.o
+*.BAK
