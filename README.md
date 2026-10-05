@@ -3,6 +3,10 @@
 **Perspective-correct textures for the original *Ultima Underworld: The
 Stygian Abyss* (1992).**
 
+| ![affine texture mapping](docs/before.png) | ![perspective correct texture mapping](docs/after.png)
+|---|---|
+|*affine texture mapping*| *perspective correct texture mapping* |
+
 `uwpatch` patches the DOS game's `UW.EXE` so that its floors, ceilings and
 walls are textured perspective-correct. The original draws floors and
 ceilings with an *affine* texture mapper, which is why a floor seen at a
